@@ -1,0 +1,283 @@
+body {
+  background-color: var(--bs-light);
+}
+
+nav, section {
+  padding: 5%;
+}
+
+.navbar {
+  background-color: var(--bs-light);
+}
+.navbar ul {
+  margin: 0;
+}
+.navbar ul a {
+  color: var(--bs-dark);
+}
+.navbar .logo {
+  color: var(--bs-dark);
+}
+
+.sec-fir {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  padding-bottom: 80px;
+}
+.sec-fir i {
+  font-size: 1.5rem;
+  margin: 10px 20px 0 0;
+}
+.sec-fir i[class*=facebook]:hover {
+  color: var(--bs-primary);
+}
+.sec-fir i[class*=instagram]:hover {
+  color: var(--bs-pink);
+}
+.sec-fir i[class*=twitter]:hover {
+  color: var(--bs-cyan);
+}
+.sec-fir button {
+  font-weight: bold;
+  width: 20%;
+}
+.sec-fir .th-info .part1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  padding: 0;
+  position: relative;
+}
+.sec-fir .th-info .part1 span {
+  font-size: 8rem;
+  margin-left: -12px;
+  margin-bottom: -43px;
+  position: relative;
+}
+.sec-fir .th-info .part1 span::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  position: absolute;
+  bottom: 20px;
+  right: -5px;
+}
+.sec-fir .th-info .part1::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.sec-fir .th-info .part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+.sec-fir .th-info .part2:last-child::after {
+  margin-top: 40px;
+  width: 80px;
+  border: 7px solid var(--bs-dark);
+  content: "";
+}
+.sec-fir .th-info .part3 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.sec-fir .th-info .part3::before {
+  background-color: black;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.sec-fir .th-info .part3 img {
+  width: 75%;
+  margin-left: -10%;
+}
+.sec-fir .th-info .part3::after {
+  background-color: var(--bs-warning);
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+}
+
+.sec-sec .sec-sec-title {
+  font-size: 5rem;
+  line-height: 1;
+}
+.sec-sec .about-me-content {
+  background: linear-gradient(to top, var(--bs-warning) 50%, rgba(255, 255, 255, 0) 50%);
+  padding: 5% 0px;
+}
+.sec-sec .about-me-content .part1 .img-container:first-of-type {
+  position: relative;
+  padding: 0 0 20px 0;
+}
+.sec-sec .about-me-content .part1 .img-container:first-of-type::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  top: -20px;
+  right: -54%;
+  position: absolute;
+  margin-right: 50%;
+}
+.sec-sec .about-me-content .part1 .img-container:first-of-type img {
+  width: 100%;
+}
+.sec-sec .about-me-content .part1 .img-container:first-of-type::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  bottom: 0px;
+  left: -30px;
+  position: absolute;
+  margin-right: 50%;
+}
+.sec-sec .about-me-content .part1 .name-and-contact {
+  position: relative;
+}
+.sec-sec .about-me-content .part1 .name-and-contact span {
+  font-size: 3.5rem;
+  display: block;
+  position: relative;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: auto -80px;
+}
+.sec-sec .about-me-content .part1 .name-and-contact span:first-of-type {
+  margin-top: 190px;
+}
+.sec-sec .about-me-content .part1 .name-and-contact span:last-of-type::after {
+  width: 50px;
+  content: "";
+  border-bottom: 15px solid black;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul {
+  margin-top: 50%;
+  list-style: none;
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li a {
+  text-decoration: none;
+  color: var(--bs-dark);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[face=""]:hover {
+  color: var(--bs-primary);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[face=""]:hover a {
+  color: var(--bs-primary);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[insta=""]:hover {
+  color: var(--bs-pink);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[insta=""]:hover a {
+  color: var(--bs-pink);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[twitter=""]:hover {
+  color: var(--bs-cyan);
+}
+.sec-sec .about-me-content .part1 .name-and-contact ul li[twitter=""]:hover a {
+  color: var(--bs-cyan);
+}
+.sec-sec .about-me-content .part2 {
+  padding: 0 10%;
+  font-size: 1.3rem;
+}
+
+.sec-thr {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  padding: 0px;
+}
+.sec-thr .sec-thr-title {
+  position: relative;
+  font-size: 5rem;
+  margin: 5%;
+  line-height: 1;
+}
+.sec-thr .sec-thr-title::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+.sec-thr .project-conta {
+  background-color: var(--bs-warning);
+  margin-top: 170px;
+  position: relative;
+}
+.sec-thr .project-conta .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-thr .project-conta .project .project-body {
+  margin: 0;
+  width: 90%;
+  background-color: var(--bs-light);
+}
+.sec-thr .project-conta .project .project-body .project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.sec-thr .project-conta .project .project-body .projrct-content {
+  font-weight: 500;
+  width: 80%;
+}
+.sec-thr .project-conta .project .project-body .project-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.sec-thr .project-conta::after {
+  content: "";
+  width: 70px;
+  border: 1px solid black;
+  margin: 70px 40px;
+  position: absolute;
+}
+
+.project-1 {
+  height: 400px;
+  position: relative;
+  margin-top: 5%;
+}
+.project-1::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  background-color: var(--bs-warning);
+  color: var(--bs-warning);
+  box-shadow: 700px 350px;
+}
+
+.sec-fou {
+  background: #fff;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
